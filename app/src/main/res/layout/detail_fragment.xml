@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="prnvshrn.foodwatch.userInterface.DetailFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:id="@+id/DetailFoodItem"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft = "5dp"
+            android:layout_marginRight= "5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:id="@+id/DetailFoodQuantity"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft = "5dp"
+            android:layout_marginRight= "5dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/LightSeaGreen"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:src="@drawable/calorie_icon"
+                />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/DetailCalories"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft = "5dp"
+            android:layout_marginRight= "5dp"
+            android:layout_gravity="left"
+            />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:src="@drawable/fat_icon"
+                    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/DetailTotalFat"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft = "5dp"
+            android:layout_marginRight= "5dp"
+            android:layout_gravity="left"
+            />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:src="@drawable/cholestrol_icon"
+                    />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/DetailCholestrol"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft = "5dp"
+            android:layout_marginRight= "5dp"
+            android:layout_gravity="left"
+            />
+</LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:src="@drawable/sodium_icon"
+                    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/DetailSodium"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft = "5dp"
+            android:layout_marginRight= "5dp"
+            android:layout_gravity="left"
+            />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:src="@drawable/carbohydrate_image"
+                    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/DetailCarbs"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft = "5dp"
+            android:layout_marginRight= "5dp"
+            android:layout_gravity="left"
+            />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:src="@drawable/fibre_icon"
+                    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/DetailFibre"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft = "5dp"
+            android:layout_marginRight= "5dp"
+            android:layout_gravity="left"
+            />
+</LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:src="@drawable/sugar_icon"
+                    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/DetailSugar"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft = "5dp"
+            android:layout_marginRight= "5dp"
+            android:layout_gravity="left"
+            />
+</LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:src="@drawable/protein_icon"
+                    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/DetailProtein"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft = "5dp"
+            android:layout_marginRight= "5dp"
+            android:layout_gravity="left"
+            />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chart1"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_margin="5dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
