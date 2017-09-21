@@ -15,6 +15,7 @@ public class ProjectVariables {
     public static String nf_total_carbohydrate = "W "; // In g
     public static String nf_dietary_fibre = " "; //In g
     public static String nf_sugars = " "; //In g
+    
     public static String nf_protein = " "; //In g
 
 }
