@@ -17,6 +17,4 @@ public class ProjectVariables {
     public static String nf_sugars = " "; //In g
     
     public static String nf_protein = " "; //In g
-    public static String final_nutrition = " "; //In cal
-
 }
